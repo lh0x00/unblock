@@ -3,7 +3,7 @@
 [![github issues][github-issues-image]][github-issues-url]
 [![build status][travis-image]][github-project-url]
 
-Use this.unblock inside Meteor Publications. This is a project to provide `this.unblock` functionality to publications.
+Use this.unblock inside Meteor Publications. This is a project to provide `this.unblock` functionality to publications for versions of meteor below 2.3. `this.unblock` is [supported](https://github.com/meteor/meteor/pull/11392) for meteor versions 2.3 and above.
 `this.unblock` inside publications is one of most(may be a little bit less) [requested](https://github.com/meteor/meteor/issues/853) feature and but it hasn't been implemented yet!
 
 Fork from [meteorhacks/unblock](https://github.com/meteorhacks/unblock). I will maintain it and update it in the future. If you find an error, please open the issue in this project!
