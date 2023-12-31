@@ -1,6 +1,6 @@
 Package.describe({
   summary: "A utils to unblock subscriptions, a this.unblock inside for Meteor Publications",
-  version: "1.0.0",
+  version: "1.0.1",
   git: "https://github.com/lamhieu-vk/unblock.git",
   name: "lamhieu:unblock",
 });
@@ -16,7 +16,7 @@ Package.onTest(function(api) {
 });
 
 function configurePackages(api) {
-  api.versionsFrom("METEOR@1.0");
-  api.use("lamhieu:meteorx@2.1.1");
+  api.versionsFrom("METEOR@2.7");
+  api.use("montiapm:meteorx@2.3.1");
   api.add_files("src/unblock.js", "server");
 }
