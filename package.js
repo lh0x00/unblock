@@ -12,11 +12,11 @@ Package.onUse(function(api, where) {
 Package.onTest(function(api) {
   configurePackages(api);
   api.use(["ecmascript", "ddp", "tinytest", "random"]);
-  api.add_files("test/unblock.js", "server");
+  api.addFiles("test/unblock.js", "server");
 });
 
 function configurePackages(api) {
   api.versionsFrom("METEOR@2.7");
   api.use("montiapm:meteorx@2.3.1");
-  api.add_files("src/unblock.js", "server");
+  api.addFiles("src/unblock.js", "server");
 }
